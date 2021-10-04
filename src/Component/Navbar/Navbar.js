@@ -23,21 +23,7 @@ const Navbar = () => {
 
 
 
-                {/* 
-                <Nav.Item>
-                    <Nav.Link href="/home">Home</Nav.Link>
-                </Nav.Item>
 
-                <Nav.Item>
-                    <Nav.Link href="/about">About Us</Nav.Link>
-                </Nav.Item>
-
-                <Nav.Item>
-                    <Nav.Link href="/services">Services</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
-                </Nav.Item> */}
 
 
 

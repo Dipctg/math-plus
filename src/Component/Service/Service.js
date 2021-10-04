@@ -8,8 +8,8 @@ const Service = (props) => {
         <div className='service'>
             <div>
                 <img className='img-fluid' src={img} />
-                <h4>{name}</h4>
-                <h5>{price}</h5>
+                <h4>Name:{name}</h4>
+                <h5>Price:${price}</h5>
             </div>
 
         </div>
