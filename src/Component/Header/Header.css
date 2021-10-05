@@ -1,12 +1,13 @@
 .header{
-    padding: 60px;
+    padding: 80px;
   text-align: center;
-  background-color: #1abc9c;
+  background-color: rgb(44, 62, 80);
   color: white;
   font-size: 30px;
 }
 .plus{
    background-color: rgba(17, 189, 94, 0.707);
-       padding: 3px;
+       padding: 2px;
        border: 2px solid rgb(237, 237, 245);
+       border-radius: 5px;
 }

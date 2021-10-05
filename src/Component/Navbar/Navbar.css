@@ -1,14 +1,15 @@
 .nav-section{
-     background-color: rgb(104, 223, 124); 
+     background-color: rgb(44, 62, 80); 
+     color: whitesmoke;
     text-decoration: none;
     padding: 5px 10px;
-    margin: 5px;
+    margin: 15px;
     border-radius: 5px;
-    border: 1px solid rgba(39, 221, 136, 0.563);
+    border: 1px solid rgb(44, 62, 80);
     
 
 }
 .nav-container{
-    background-color: rgba(17, 141, 83, 0.686);
+    background-color: rgba(4, 63, 123, 0.248);
     justify-content: center;
 }

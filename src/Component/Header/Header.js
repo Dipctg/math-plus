@@ -10,7 +10,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <div className='header'>
+            <div className='header '>
                 <h1>Math <span className='plus'>+</span></h1>
             </div>
             <div>

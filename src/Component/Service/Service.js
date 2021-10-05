@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Service.css';
 const Service = (props) => {
     console.log(props.service);
@@ -8,8 +9,13 @@ const Service = (props) => {
         <div className='service'>
             <div>
                 <img className='img-fluid' src={img} />
-                <h4>Name:{name}</h4>
-                <h5>Price:${price}</h5>
+                <hr />
+                <h4 className='name fs-2'>Name: {name}</h4>
+                <h5 className='name'>Price: ${price}</h5>
+                <hr />
+                <Link className='service-book' to="/contact">
+                    Book now at ${price}
+                </Link>
             </div>
 
         </div>

@@ -2,17 +2,23 @@ import React from 'react';
 import './About.css'
 const About = () => {
     return (
-        <div className='p-5 m-5'>
+        <div className='background'>
             <div>
-                <h1>Welcome</h1>
-                <h2>We believe everyone has the capacity to be creative. Math+ is a place where people develop their own potential.</h2>
+                <h1 className='pt-5 pb-2 fs-2'>WELCOME</h1>
+
+                <h2 className='pb-5 fs-5'>We believe everyone has the capacity to be creative. Math <span className='plus'>+</span>  is a place where people develop their own potential.</h2>
             </div>
-            <div className='bg-secondary p-2 mt-5'>
-                <h1>OUR STORY</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis.</p>
+
+            <div>
+                <h1 className='fs-5 pt-5 '>OUR STORY</h1>
+                <hr />
+                <div className='text-start'>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis Debitis inventore perferendis exercitationem, distinctio ex vel veritatis.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatismolestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias optio, aspernatur molestiae autem nobis, ducimus ut praesentium mollitia totam vitae ullam maxime. Debitis inventore perferendis exercitationem, distinctio ex vel veritatis.</p>
+                </div>
             </div>
         </div>
 
